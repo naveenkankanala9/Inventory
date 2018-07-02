@@ -23,7 +23,7 @@ Where profit is calculated by:  ∑ (sellingPrice-costPrice) of the sold items m
 ```
 # Development
 ```
-The project is developed using 
+Technologies used 
   Spring Boot
   Java8
   Hibernate
