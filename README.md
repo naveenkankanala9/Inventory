@@ -53,7 +53,16 @@ updateSell Food01 1
 updateSell Food01 1
 updateSell Tab01 2
 report
+delete Book01
+updateSell Tab01 5
+create Mobile01 10.51 44.56
+updateBuy Mobile01 250
+updateSell Food01 5
+updateSell Mobile01 4
+updateSell Med01 10
+report
 #
+
 
 ```
 Expected Output
@@ -68,6 +77,19 @@ Tab01     	57.00          	84.98                	96    	5472.00
 ---------------------------------------------------------------------------
 Total value                                                     	10317.06
 Profit since previous report                                      	116.94
+ 
+ 
+              	INVENTORY REPORT
+Item Name 	Bought At    	Sold At  	AvailableQty    	Value
+--------- 	---------    	-------  	-----------     	-------
+Food01          	1.47      	3.98       	493           	724.71
+Med01          	30.63     	34.29        	90          	2756.70
+Mobile01       	10.51     	44.56       	246          	2585.46
+Tab01          	57.00     	84.98        	91          	5187.00
+---------------------------------------------------------------------------
+Total value                                                   	11253.87
+Profit since previous report                                   	-724.75
+
 ```
 
 # Design 
